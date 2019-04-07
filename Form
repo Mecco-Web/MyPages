@@ -1,0 +1,98 @@
+<html>
+
+<head>
+	<mate="UTF-8">
+	<title>TABLE</title>
+
+
+	<style>
+		.text{
+			height:100px;
+			width:440px;
+		}
+		
+		.button{
+			text-align:right;
+			margin-right:50px;
+			font-size:15px;
+		}
+
+		*{
+			border:solid thin;
+		}
+	</style>
+</head>
+
+<body>
+	<form>
+	<table border="1px" align="center">		
+		
+		<caption>Information of you</caption>
+		
+		<tr>
+			<td>
+				Name:
+				<input type="text">
+			</td>
+			<td>
+				Email:
+				<input type="text">
+			</td>
+		</tr>
+			
+		<tr>
+			<td colspan="2">
+				Sex:
+				<input type="radio"   name="A"  value="Male">Male
+				<input type="radio"   name="A"  value="Female">Female 
+			</td>
+		</tr>
+	
+
+		<tr>
+			<td colspan="2">
+				Time:
+				<select>
+					<option>2016</option>
+					<option>2017</option>
+					<option>2018</option>
+					<option>2019</option>
+				</select>
+				Y
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td colspan="2">
+				Tools you used:
+				<br>
+				<input type="checkbox" name="C">Javascript
+				<input type="checkbox" name="C">VBscript
+				<input type="checkbox" name="C">JSP
+		</tr>
+
+
+		<tr>
+			<td colspan="2">
+				Discrible your work:<br>
+				<textarea class="text">
+				</textarea>
+
+				<br><br>
+				Choose your files (if you have)
+				<br>
+				<input type="file" value="File">			
+		</tr>
+
+	</table>
+	
+	<div class="button">
+		<input type="reset" value="Reset">
+		<input type="submit" value="Submit">
+	</div>	
+
+	</form>
+</body>
+
+</html>
